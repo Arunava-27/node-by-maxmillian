@@ -3,7 +3,8 @@ const express = require('express')
 const bodyParser = require('body-parser')
 
 const adminRoutes = require('./routes/admin')
-const shopRoutes = require('./routes/shop')
+const shopRoutes = require('./routes/shop');
+const { lstat } = require("fs");
 
 const app = express()
 
