@@ -1,0 +1,12 @@
+/* Users page styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
