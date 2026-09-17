@@ -8,8 +8,10 @@ const shopRoutes = require('./routes/shop');
 
 const app = express()
 
-
+// Parse incoming request bodies with URL-encoded payloads
 app.use(bodyParser.urlencoded({extended: false}))
+
+// Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/admin', adminRoutes);
